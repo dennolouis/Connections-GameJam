@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     {
         if (questText != null)
         {
-            questText.text = "Quest: " + currentQuest;
+            questText.text = currentQuest;
         }
     }
 }

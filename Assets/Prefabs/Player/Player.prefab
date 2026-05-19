@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 443745280861974596}
   - component: {fileID: 8413434581253400566}
   - component: {fileID: 2416967596660839900}
+  - component: {fileID: 1418175052701099735}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -74,8 +75,22 @@ MonoBehaviour:
   speed: 5
   gravity: -9.81
   jumpHeight: 1.5
-  mouseSensitivity: 100
+  mouseSensitivity: 500
   cameraPivot: {fileID: 1020104824952037442}
+--- !u!114 &1418175052701099735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5989628791103151527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1304542cc40c474595aa1d7042b4f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  playerCamera: {fileID: 0}
+  interactRange: 3
 --- !u!1 &6343961113944456421
 GameObject:
   m_ObjectHideFlags: 0
