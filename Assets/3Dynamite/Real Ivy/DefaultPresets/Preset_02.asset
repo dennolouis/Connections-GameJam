@@ -61,4 +61,4 @@ MonoBehaviour:
     - 1
     generateBranches: 1
     generateLeaves: 1
-    generateLightmapUVs: 0
+    generateLightmapUVs: 1
