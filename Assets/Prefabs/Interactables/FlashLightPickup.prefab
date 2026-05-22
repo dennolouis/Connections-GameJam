@@ -127,4 +127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupItem
   itemType: 0
   itemPrefab: {fileID: 5249187943938370535, guid: 8862ca5fea62a9e4d856cda1c41e4549, type: 3}
+  attachPoint: {fileID: 0}
+  attachLocalPosition: {x: 0, y: -0.05, z: 0.3}
+  attachLocalEulerAngles: {x: 0, y: 0, z: 0}
+  questToSet: '''F'' To Toggle Flashlight'
   rotationSpeed: 50
