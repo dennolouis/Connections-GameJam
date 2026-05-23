@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1304542cc40c474595aa1d7042b4f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 8016404955251341791}
   interactRange: 3
 --- !u!1 &6343961113944456421
 GameObject:
